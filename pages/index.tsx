@@ -2,29 +2,29 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
         <title>Create Next App</title>
-      <h1 className="text-red-500">Temp</h1> 
       </Head>
 
       {/* Header */}
+      <Header />
+      {/* Hero  */}
 
-      {/* Hero 
+      {/* About  */}
 
-      About 
+      {/* Experience  */}
 
-      Experience 
+      {/* Skills  */}
 
-      Skills 
+      {/* Projects  */}
 
-      Projects 
-
-      Contact Me 
-       */}
+      {/* Contact Me  */}
+      
     </div>
   )
 }
