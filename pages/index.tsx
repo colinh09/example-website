@@ -10,6 +10,21 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
       <h1 className="text-red-500">Temp</h1> 
       </Head>
+
+      {/* Header */}
+
+      {/* Hero 
+
+      About 
+
+      Experience 
+
+      Skills 
+
+      Projects 
+
+      Contact Me 
+       */}
     </div>
   )
 }
