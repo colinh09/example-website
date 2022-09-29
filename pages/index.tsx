@@ -7,7 +7,7 @@ import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className = "bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Create Next App</title>
       </Head>
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Hero  */}
-      <section id="hero">
+      <section className="snap-center" id="hero">
         <Hero />
       </section>
 
