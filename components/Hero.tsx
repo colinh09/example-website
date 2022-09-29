@@ -11,7 +11,7 @@ function Hero({}: Props) {
         words: [
             "Hello! My name is Colin Hwang",
             "I am a Student at The Cooper Union",
-            "I am a Programmer",
+            "I am a Computer Scientist",
             "I am an Electrical Engineer"
         ],
         loop: true,
@@ -23,7 +23,7 @@ function Hero({}: Props) {
         <Image className="relative rounded-full mx-auto object-cover" alt="Picture of Colin Hwang" src= "/../public/me.jfif" width={170} height={170}/>
         <div className="z-20">
             <h2 className = "text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
-            <h1 className = "text-4xl lg:text-5xl font-semibold px-10">
+            <h1 className = "text-3xl lg:text-4xl font-semibold px-10">
                 <span className="mr-3">{text}</span>
                 <Cursor cursorColor="#228C22" />
             </h1>
